@@ -1,0 +1,31 @@
+# Node.js .gitignore
+node_modules/
+.env
+npm-debug.log
+dist/
+build/
+coverage/
+.DS_Store
+*.log
+.idea/
+.vscode/
+*.tgz
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
